@@ -1,0 +1,6 @@
+set(LIBHELLO hello.cc)
+set(LIBRARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR})
+add_library(hello SHARED ${LIBHELLO})
+add_library(hello_static STATIC ${LIBHELLO})
+set_target_properties(hello_static PROPERTIES  OUTPUT_NAME "hello")
+set_target_properties(hello_static PROPERTIES CLEAN_DIRECT_OUTPUT 1)
