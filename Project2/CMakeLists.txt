@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 2.8)
+find_package(Eigen3 3.1.0 REQUIRED)
+include_directories(${EIGEN3_INCLUDE_DIR})
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR})
+add_executable(main main.cc)
+target_link_libraries(main ${EIGEN3_LIBS})
