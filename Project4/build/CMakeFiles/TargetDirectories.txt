@@ -1,0 +1,4 @@
+/home/yup/桌面/model/Nreal_Project/Project4/build/CMakeFiles/OpenCV_.dir
+/home/yup/桌面/model/Nreal_Project/Project4/build/CMakeFiles/main.dir
+/home/yup/桌面/model/Nreal_Project/Project4/build/CMakeFiles/edit_cache.dir
+/home/yup/桌面/model/Nreal_Project/Project4/build/CMakeFiles/rebuild_cache.dir
